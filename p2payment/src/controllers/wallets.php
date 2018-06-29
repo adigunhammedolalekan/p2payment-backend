@@ -13,7 +13,7 @@ use Slim\Http\Response;
 /*
  * FlutterWave requires a registered company name,
  * a verification document and other infos that i do not have.
- * Some this endpoints simply takes an amount passed in and credit the user's account wallet
+ * So this endpoints simply takes an amount passed in and credit the user's account wallet
  * */
 $app->post("/api/me/wallet/credit", function (Request $request, Response $response) {
 
