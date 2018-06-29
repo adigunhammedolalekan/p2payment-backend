@@ -1,0 +1,14 @@
+{
+	"name": "GetFood.NG",
+    "description": "Mobile app API server for getfood.com.ng",
+	"require": {
+        "slim/slim": "^3.9",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.23",
+        "taq/torm": ">=1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "respect/validation": "^1.1",
+        "league/fractal": "^0.17.0",
+        "flutterwave/flutterwave-php": "dev-master"
+    }
+}
