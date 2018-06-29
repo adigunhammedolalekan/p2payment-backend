@@ -98,6 +98,9 @@
             return $cursor->fetch(PDO::FETCH_ASSOC);
         }
 
+        /*
+         * Send {$amount} from {$fromUserId} to {$toUserId}
+         * */
         function performTransaction($fromUserId, $toUserId, $amount) {
 
             $from = $this->getUser($fromUserId);
